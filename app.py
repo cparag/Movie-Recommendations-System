@@ -187,7 +187,7 @@ def recommend_by_mood(df, mood, top_n=5):
     return filtered[['title', 'movie_id']].head(top_n)
 
 
-st.title("Emotion-Based Movie Recommender")
+st.title("Personalized Emotion Movie Picks")
 
 
 selected_mood = st.selectbox(
